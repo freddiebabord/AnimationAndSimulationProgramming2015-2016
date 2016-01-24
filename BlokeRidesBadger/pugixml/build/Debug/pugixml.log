@@ -1,0 +1,22 @@
+﻿Build started 15/01/2016 18:11:01.
+     1>Project "\\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\pugixml\pugixml.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         pugixml.vcxproj -> \\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\pugixml\lib\Win32\v120\Debug\pugixml.lib
+       PostBuildEvent:
+         xcopy /E /S /I /Y "doc" "\\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\external\doc"
+         xcopy /E /S /I /Y "include" "\\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\external\include"
+         xcopy /E /S /I /Y "lib" "\\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\external\lib"
+         :VCEnd
+         doc\pugixml.txt
+         1 File(s) copied
+         include\pugixml\pugiconfig.hpp
+         include\pugixml\pugixml.hpp
+         2 File(s) copied
+         lib\Win32\v120\Debug\pugixml.pdb
+         lib\Win32\v120\Debug\pugixml.lib
+         2 File(s) copied
+     1>Done Building Project "\\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\pugixml\pugixml.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.91

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entity name="bloke">
+	<actor name="pelvis" colour="56 70 41">
+		<poses>
+			<pose name="standing" translate="0 1.098 -0.038" euler="0 0 0"/>
+			<pose name="sitting_straight" translate="0 0.453 -0.243" euler="0 0 0"/>
+			<pose name="sitting_turn_right" translate="0 0.453 -0.243" euler="0 0 0"/>
+			<pose name="sitting_turn_left" translate="0 0.453 -0.243" euler="0 0 0"/>
+			<pose name="standing_straight" translate="0 0.757 -0.243" euler="0 0 0"/>
+			<pose name="standing_turn_right" translate="0 0.757 -0.24" euler="0 0 0"/>
+			<pose name="standing_turn_left" translate="0 0.757 -0.24" euler="0 0 0"/>
+		</poses>
+		<actor name="torso" colour="56 70 41">
+			<poses>
+				<pose name="standing" translate="0 0 0" euler="0 0 0"/>
+				<pose name="sitting_straight" translate="0 0 0" euler="26.07 0 0"/>
+				<pose name="sitting_turn_right" translate="0 0 0" euler="25.179 -6.987 14.508"/>
+				<pose name="sitting_turn_left" translate="0 0 0" euler="25.179 -6.987 -14.1"/>
+				<pose name="standing_straight" translate="0 0 0" euler="36 0 0"/>
+				<pose name="standing_turn_right" translate="0 0 0" euler="42 -5 6"/>
+				<pose name="standing_turn_left" translate="0 0 0" euler="41 9 -10"/>
+			</poses>
+			<actor name="helmet" colour="56 70 41">
+				<poses>
+					<pose name="standing" translate="0 0.544 -0.019" euler="0 0 0"/>
+					<pose name="sitting_straight" translate="0 0.544 -0.019" euler="-25.468 0 0"/>
+					<pose name="sitting_turn_right" translate="0 0.544 -0.019" euler="-25.356 4.63 -9.887"/>
+					<pose name="sitting_turn_left" translate="0 0.544 -0.019" euler="-20.713 4.205 9.615"/>
+					<pose name="standing_straight" translate="0 0.544 -0.019" euler="-20.713 4.205 9.615"/>
+					<pose name="standing_turn_right" translate="0 0.544 -0.019" euler="-21 2 -8"/>
+					<pose name="standing_turn_left" translate="0 0.544 -0.019" euler="-25 -4 6"/>
+				</poses>
+			</actor>
+			<actor name="arm_left" colour="56 70 41">
+				<poses>
+					<pose name="standing" translate="0.213 0.39 -0.052" euler="0 0 10"/>
+					<pose name="sitting_straight" translate="0.213 0.39 -0.052" euler="-40.815 20.533 -6.8525"/>
+					<pose name="sitting_turn_right" translate="0.213 0.39 -0.052" euler="-47.677 29.696 6.001"/>
+					<pose name="sitting_turn_left" translate="0.213 0.39 -0.052" euler="-14.418 20.606 -1.231"/>
+					<pose name="standing_straight" translate="0.213 0.39 -0.052" euler="-45 18 -10"/>
+					<pose name="standing_turn_right" translate="0.213 0.39 -0.052" euler="-45 22 8"/>
+					<pose name="standing_turn_left" translate="0.213 0.39 -0.052" euler="-26 7 5"/>
+				</poses>
+				<actor name="forearm_left" colour="56 70 41">
+					<poses>
+						<pose name="standing" translate="0.04 -0.332 0.024" euler="0 0 0"/>
+						<pose name="sitting_straight" translate="0.04 -0.332 0.024" euler="-95.46 0 0"/>
+						<pose name="sitting_turn_right" translate="0.04 -0.332 0.024" euler="-72.089 0 0"/>
+						<pose name="sitting_turn_left" translate="0.04 -0.332 0.024" euler="-123.361 0 0"/>
+						<pose name="standing_straight" translate="0.04 -0.332 0.024" euler="-56 0 0"/>
+						<pose name="standing_turn_right" translate="0.04 -0.332 0.024" euler="-66 0 0"/>
+						<pose name="standing_turn_left" translate="0.04 -0.332 0.024" euler="-81 0 0"/>
+					</poses>
+					<actor name="hand_left" colour="56 70 41">
+						<poses>
+							<pose name="standing" translate="-0.003 -0.265 0.048" euler="0 0 0"/>
+							<pose name="sitting_straight" translate="-0.003 -0.265 0.048" euler="0 0 0"/>
+							<pose name="sitting_turn_right" translate="-0.003 -0.265 0.048" euler="0 0 0"/>
+							<pose name="sitting_turn_left" translate="-0.003 -0.265 0.048" euler="0 0 0"/>
+							<pose name="standing_straight" translate="-0.003 -0.265 0.048" euler="0 0 0"/>
+							<pose name="standing_turn_right" translate="-0.003 -0.265 0.048" euler="0 0 0"/>
+							<pose name="standing_turn_left" translate="-0.003 -0.265 0.048" euler="0 0 0"/>
+						</poses>
+					</actor>
+				</actor>
+			</actor>
+			<actor name="arm_right" colour="56 70 41">
+				<poses>
+					<pose name="standing" translate="-0.213 0.39 -0.052" euler="0 0 -10"/>
+					<pose name="sitting_straight" translate="-0.213 0.39 -0.052" euler="-40.815 -20.533 -6.852"/>
+					<pose name="sitting_turn_right" translate="-0.213 0.39 -0.052" euler="-27.369 -1.226 3.805"/>
+					<pose name="sitting_turn_left" translate="-0.213 0.39 -0.052" euler="-59.38 -15.709 -13.798"/>
+					<pose name="standing_straight" translate="-0.213 0.39 -0.052" euler="-45 -18 10"/>
+					<pose name="standing_turn_right" translate="-0.213 0.39 -0.052" euler="-27 -11 6"/>
+					<pose name="standing_turn_left" translate="-0.213 0.39 -0.052" euler="-43 -24 -4"/>
+				</poses>
+				<actor name="forearm_right" colour="56 70 41">
+					<poses>
+						<pose name="standing" translate="-0.04 -0.332 0.024" euler="0 0 0"/>
+						<pose name="sitting_straight" translate="-0.04 -0.332 0.024" euler="-95.46 0 0"/>
+						<pose name="sitting_turn_right" translate="-0.04 -0.332 0.024" euler="-111.191 0 0"/>
+						<pose name="sitting_turn_left" translate="-0.04 -0.332 0.024" euler="-56.715 0 0"/>
+						<pose name="standing_straight" translate="-0.04 -0.332 0.024" euler="-56 0 0"/>
+						<pose name="standing_turn_right" translate="-0.04 -0.332 0.024" euler="-79 0 0"/>
+						<pose name="standing_turn_left" translate="-0.04 -0.332 0.024" euler="-68 0 0"/>
+					</poses>
+					<actor name="hand_right" colour="56 70 41">
+						<poses>
+							<pose name="standing" translate="0.003 -0.265 0.048" euler="0 0 0"/>
+							<pose name="sitting_straight" translate="0.003 -0.265 0.048" euler="0 0 0"/>
+							<pose name="sitting_turn_right" translate="0.003 -0.265 0.048" euler="0 0 0"/>
+							<pose name="sitting_turn_left" translate="0.003 -0.265 0.048" euler="0 0 0"/>
+							<pose name="standing_straight" translate="0.003 -0.265 0.048" euler="0 0 0"/>
+							<pose name="standing_turn_right" translate="0.003 -0.265 0.048" euler="0 0 0"/>
+							<pose name="standing_turn_left" translate="0.003 -0.265 0.048" euler="0 0 0"/>
+						</poses>
+					</actor>
+				</actor>
+			</actor>
+		</actor>
+		<actor name="leg_left" colour="56 70 41">
+			<poses>
+				<pose name="standing" translate="0.101 -0.074 0.008" euler="0 0 0"/>
+				<pose name="sitting_straight" translate="0.101 -0.074 0.008" euler="-53.334 19.534 14.202"/>
+				<pose name="sitting_turn_right" translate="0.101 -0.074 0.008" euler="-53.333 19.534 14.202"/>
+				<pose name="sitting_turn_left" translate="0.101 -0.074 0.008" euler="-53.334 19.534 14.202"/>
+				<pose name="standing_straight" translate="0.101 -0.074 0.008" euler="-16 18 9"/>
+				<pose name="standing_turn_right" translate="0.101 -0.074 0.008" euler="-16 18 9"/>
+				<pose name="standing_turn_left" translate="0.101 -0.074 0.008" euler="-16 18 9"/>
+			</poses>
+			<actor name="shin_left" colour="56 70 41">
+				<poses>
+					<pose name="standing" translate="0.041 -0.462 -0.039" euler="0 0 0"/>
+					<pose name="sitting_straight" translate="0.041 -0.462 -0.039" euler="117.394 0 0"/>
+					<pose name="sitting_turn_right" translate="0.041 -0.462 -0.039" euler="117.394 0 0"/>
+					<pose name="sitting_turn_left" translate="0.041 -0.462 -0.039" euler="117.394 0 0"/>
+					<pose name="standing_straight" translate="0.041 -0.462 -0.039" euler="30 0 0"/>
+					<pose name="standing_turn_right" translate="0.041 -0.462 -0.039" euler="30 0 0"/>
+					<pose name="standing_turn_left" translate="0.041 -0.462 -0.039" euler="30 0 0"/>
+				</poses>
+				<actor name="foot_left" colour="56 70 41">
+					<poses>
+						<pose name="standing" translate="0.019 -0.416 0.006" euler="0 0 0"/>
+						<pose name="sitting_straight" translate="0.019 -0.416 0.006" euler="-17.47 0 0"/>
+						<pose name="sitting_turn_right" translate="0.019 -0.416 0.006" euler="-17.47 0 0"/>
+						<pose name="sitting_turn_left" translate="0.019 -0.416 0.006" euler="-17.47 0 0"/>
+						<pose name="standing_straight" translate="0.019 -0.416 0.006" euler="0 0 0"/>
+						<pose name="standing_turn_right" translate="0.019 -0.416 0.006" euler="0 0 0"/>
+						<pose name="standing_turn_left" translate="0.019 -0.416 0.006" euler="0 0 0"/>
+					</poses>
+				</actor>
+			</actor>
+		</actor>
+		<actor name="leg_right" colour="56 70 41">
+			<poses>
+				<pose name="standing" translate="-0.101 -0.074 0.008-0.101 -0.074 0.008" euler="0 0 0"/>
+				<pose name="sitting_straight" translate="-0.101 -0.074 0.008" euler="-53.334 -19.534 -14.202"/>
+				<pose name="sitting_turn_right" translate="-0.101 -0.074 0.008" euler="-53.334 -19.534 -14.202"/>
+				<pose name="sitting_turn_left" translate="-0.101 -0.074 0.008" euler="-53.334 -19.534 -14.202"/>
+				<pose name="standing_straight" translate="-0.101 -0.074 0.008" euler="-16 -18 -9"/>
+				<pose name="standing_turn_right" translate="-0.101 -0.074 0.008" euler="-16 -18 -9"/>
+				<pose name="standing_turn_left" translate="-0.101 -0.074 0.008" euler="-16 -18 -9"/>
+			</poses>
+			<actor name="shin_right" colour="56 70 41">
+				<poses>
+					<pose name="standing" translate="-0.041 -0.462 -0.039" euler="0 0 0"/>
+					<pose name="sitting_straight" translate="-0.041 -0.462 -0.039" euler="117.394 0 0"/>
+					<pose name="sitting_turn_right" translate="-0.041 -0.462 -0.039" euler="117.394 0 0"/>
+					<pose name="sitting_turn_left" translate="-0.041 -0.462 -0.039" euler="117.394 0 0"/>
+					<pose name="standing_straight" translate="-0.041 -0.462 -0.039" euler="30 0 0"/>
+					<pose name="standing_turn_right" translate="-0.041 -0.462 -0.039" euler="30 0 0"/>
+					<pose name="standing_turn_left" translate="-0.041 -0.462 -0.039" euler="30 0 0"/>
+				</poses>
+				<actor name="foot_right" colour="56 70 41">
+					<poses>
+						<pose name="standing" translate="-0.019 -0.416 0.006" euler="0 0 0"/>
+						<pose name="sitting_straight" translate="-0.019 -0.416 0.006" euler="-17.47 0 0"/>
+						<pose name="sitting_turn_right" translate="-0.019 -0.416 0.006" euler="-17.47 0 0"/>
+						<pose name="sitting_turn_left" translate="-0.019 -0.416 0.006" euler="-17.47 0 0"/>
+						<pose name="standing_straight" translate="-0.019 -0.416 0.006" euler="0 0 0"/>
+						<pose name="standing_turn_right" translate="-0.019 -0.416 0.006" euler="0 0 0"/>
+						<pose name="standing_turn_left" translate="-0.019 -0.416 0.006" euler="0 0 0"/>
+					</poses>
+				</actor>
+			</actor>
+		</actor>
+	</actor>
+</entity>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entity name="badger">
+	<actor name="chassis" colour="50 70 41" tag="chassis">
+		<poses>
+				<pose name="idle" translate="0 0 0" euler="0 0 0"/>
+			</poses>
+		<actor name="handlebar" colour="38 38 38" tag="handlebar">
+			<poses>
+				<pose name="idle" translate="0 0.633 0.411" euler="-38.784 0 0"/>
+			</poses>
+		</actor>
+		<actor name="luggage_rack" colour="38 38 38" tag="luggage_rack">
+			<poses>
+				<pose name="idle" translate="0 0.630 -1.075" euler="0 0 0"/>
+			</poses>
+		</actor>
+		<!-- Left front wheel -->
+			<actor name="wheel" colour="38 38 38" tag="leftFrontWheel">
+				<poses>
+					<pose name="idle" translate="0.654 -0.235 1.065" euler="0 0 -90"/>
+				</poses>
+		</actor>
+		<!-- Right front wheel -->
+			<actor name="wheel" colour="38 38 38" tag="rightFrontWheel">
+				<poses>
+					<pose name="idle" translate="-0.654 -0.235 1.065" euler="0 0 90"/>
+				</poses>
+		</actor>
+		<!-- Left back wheel -->
+			<actor name="wheel" colour="38 38 38" tag="leftBackWheel">
+				<poses>
+					<pose name="idle" translate="0.654 -0.235 -1" euler="0 0 -90"/>
+				</poses>
+		</actor>
+		<!-- Right back wheel -->
+			<actor name="wheel" colour="38 38 38" tag="rightBackWheel">
+				<poses>
+					<pose name="idle" translate="-0.654 -0.235 -1" euler="0 0 90"/>
+				</poses>
+			</actor>
+	</actor>
+</entity>

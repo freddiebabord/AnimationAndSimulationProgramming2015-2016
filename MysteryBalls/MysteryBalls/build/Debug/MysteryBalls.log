@@ -1,0 +1,34 @@
+﻿Build started 19/01/2016 14:54:24.
+     1>Project "C:\Users\p4011584\Desktop\MB\MysteryBalls\MysteryBalls.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\p4011584\Desktop\MB\external/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"build\Debug\\" /Fd"build\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DominantBall.cpp MyDemo.cpp SlaveBall.cpp main.cpp
+         DominantBall.cpp
+         MyDemo.cpp
+         No target GL version declared, defaulting to GL 3.3
+         SlaveBall.cpp
+     1>c:\users\p4011584\desktop\mb\mysteryballs\slaveball.cpp(76): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"build\Debug\MysteryBalls.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\p4011584\Desktop\MB\external\lib\Win32\v120\Debug tyga.lib "tsl-vc120-mt-sg.lib" "tcf-vc120-mt-sg.lib" glfw.lib tygra.lib tgl.lib png.lib zlib.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"build\Debug\MysteryBalls.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"build\Debug\MysteryBalls.lib" /MACHINE:X86 build\Debug\DominantBall.obj
+         build\Debug\main.obj
+         build\Debug\MyDemo.obj
+         build\Debug\MyUtils.obj
+         build\Debug\SlaveBall.obj
+         MysteryBalls.vcxproj -> C:\Users\p4011584\Desktop\MB\MysteryBalls\build\Debug\MysteryBalls.exe
+       PostBuildEvent:
+         xcopy /E /S /I /Y "doc" "C:\Users\p4011584\Desktop\MB\demo"
+         xcopy /E /S /I /Y "demo" "C:\Users\p4011584\Desktop\MB\demo"
+         xcopy /Y "C:\Users\p4011584\Desktop\MB\MysteryBalls\build\Debug\MysteryBalls.exe" "C:\Users\p4011584\Desktop\MB\demo"
+         :VCEnd
+         File not found - doc
+         0 File(s) copied
+         File not found - demo
+         0 File(s) copied
+         C:\Users\p4011584\Desktop\MB\MysteryBalls\build\Debug\MysteryBalls.exe
+         1 File(s) copied
+     1>Done Building Project "C:\Users\p4011584\Desktop\MB\MysteryBalls\MysteryBalls.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.65

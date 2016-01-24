@@ -1,0 +1,38 @@
+﻿Build started 15/01/2016 20:23:15.
+     1>Project "\\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\BlokeRidesBadger\BlokeRidesBadger.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"\\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\external/include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"build\Debug\\" /Fd"build\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bloke.cpp
+         Bloke.cpp
+     1>\\scm-home\p4011584\github\animationandsimulationprogramming2015-2016\blokeridesbadger\blokeridesbadger\beziercurve.h(76): warning C4018: '<' : signed/unsigned mismatch
+     1>\\scm-home\p4011584\github\animationandsimulationprogramming2015-2016\blokeridesbadger\blokeridesbadger\beziercurve.h(80): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>\\scm-home\p4011584\github\animationandsimulationprogramming2015-2016\blokeridesbadger\blokeridesbadger\beziercurve.h(84): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>\\scm-home\p4011584\github\animationandsimulationprogramming2015-2016\blokeridesbadger\blokeridesbadger\beziercurve.h(85): warning C4018: '<' : signed/unsigned mismatch
+     1>\\scm-home\p4011584\github\animationandsimulationprogramming2015-2016\blokeridesbadger\blokeridesbadger\beziercurve.h(101): warning C4018: '<' : signed/unsigned mismatch
+     1>\\scm-home\p4011584\github\animationandsimulationprogramming2015-2016\blokeridesbadger\blokeridesbadger\bloke.cpp(137): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"build\Debug\BlokeRidesBadger.exe" /INCREMENTAL /NOLOGO /LIBPATH:"\\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\external\lib\Win32\v120\Debug" pugixml.lib tyga.lib "tsl-vc120-mt-sg.lib" "tcf-vc120-mt-sg.lib" glfw.lib tygra.lib tgl.lib png.lib zlib.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"build\Debug\BlokeRidesBadger.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"build\Debug\BlokeRidesBadger.lib" /MACHINE:X86 build\Debug\Badger.obj
+         build\Debug\BadgerRails.obj
+         build\Debug\BezierCurve.obj
+         build\Debug\Bloke.obj
+         build\Debug\Camera.obj
+         build\Debug\main.obj
+         build\Debug\MyDemo.obj
+         build\Debug\MyUtils.obj
+         build\Debug\Node.obj
+         BlokeRidesBadger.vcxproj -> \\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\BlokeRidesBadger\build\Debug\BlokeRidesBadger.exe
+       PostBuildEvent:
+         xcopy /E /S /I /Y "doc" "\\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\demo"
+         xcopy /E /S /I /Y "demo" "\\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\demo"
+         xcopy /Y "\\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\BlokeRidesBadger\build\Debug\BlokeRidesBadger.exe" "\\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\demo"
+         :VCEnd
+         File not found - doc
+         0 File(s) copied
+         File not found - demo
+         0 File(s) copied
+         \\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\BlokeRidesBadger\build\Debug\BlokeRidesBadger.exe
+         1 File(s) copied
+     1>Done Building Project "\\scm-home\P4011584\GitHub\AnimationAndSimulationProgramming2015-2016\BlokeRidesBadger\BlokeRidesBadger\BlokeRidesBadger.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.86
