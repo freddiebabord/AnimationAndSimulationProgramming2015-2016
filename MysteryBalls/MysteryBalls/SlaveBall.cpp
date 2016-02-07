@@ -71,16 +71,25 @@ actorClockTick(std::shared_ptr<tyga::Actor> actor)
 
 	tyga::Vector3 domPos = tyga::Vector3(dominator_->Transformation().m[3][0], dominator_->Transformation().m[3][3], dominator_->Transformation().m[3][2]);
 
-	auto t = tyga::Vector3(actor->Transformation().m[3][0], actor->Transformation().m[3][3], actor->Transformation().m[3][2]);
+	auto myPos = tyga::Vector3(actor->Transformation().m[3][0], actor->Transformation().m[3][3], actor->Transformation().m[3][2]);
 
-	float mass = rand() % 5 - 0;
+	////loat mass = rand() % 5 - 0;
 
-	auto a = (mass * 5.0f) / pow(Distance(domPos, t), 2);
+	//auto a = (mass * 5.0f) / pow(Distance(domPos, t), 2);
 
-	auto F = mass * t;
-/*
-	tyga::Vector3 displacement = velocity_ * (time - savedTime)+0.5f * acceleration_ * pow(time - savedTime, 2);
-	tyga::Vector3 displacement = initial_velocity_ * (time - savedTime) + 0.5f * acceleration_ * pow(time - savedTime, 2);*/
+	//auto F = mass * a;
 
-	actor->setTransformation(xform * a);
+	////
+	//tyga::Vector3 displacement = velocity_ * (time - savedTime) + 0.5f * F * pow(time - savedTime, 2);
+
+
+	//auto tr = FB::translate(displacement);
+
+	auto g = myPos - domPos;  
+	tyga::Vector3 acceleration = tyga::cross(-g, tyga::Vector3(0, 0, -9.8f));
+	auto F = mass * acceleration;
+	auto s = velocity_ * (time - savedTime) + 0.5f * F * pow((time - savedTime), 2);
+
+	// position, force, acceleration, time
+	actor->setTransformation(xform * FB::translate(s));
 }

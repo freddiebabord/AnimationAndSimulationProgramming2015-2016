@@ -26,6 +26,25 @@ namespace FB
 
 	class BezierCurve;
 
+	inline float Length(tyga::Vector3 a)
+	{
+		return sqrt(a.x * a.x + a.y * a.y + a.z * a.z);
+	}
+
+	inline tyga::Vector3 Normalize(tyga::Vector3 a)
+	{
+		auto res = a;
+		float length = Length(res);
+
+		if (length != 0)
+		{
+			res.x = res.x / length;
+			res.y = res.y / length;
+			res.z = res.z / length;
+		}
+
+		return res;
+	}
 
 #pragma region Animation Basic
 
