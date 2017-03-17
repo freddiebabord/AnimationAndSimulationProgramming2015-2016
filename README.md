@@ -1,4 +1,6 @@
-# AnimationAndSimulationProgramming2015-2016
+# Animation And Simulation Programming (COM2069-N) 
+
+Overall Result: 72%
 
 ## Bloke Rides Badger
 You are to write a C++ application to display and animate the Badger entity as it moves around a
@@ -19,6 +21,8 @@ turns. The sitting posture is required but supporting the standing posture in ad
 * Document (in block code comments) which animation techniques are being used, how, and
 explain the choices made to satisfy and implement the above requirements.
 
+Result: 88%
+
 
 ## Badger Sim
 You are to complete a C++ application to simulate the interaction of Badger entities with their
@@ -33,3 +37,5 @@ when it collides with them.
 * Refactor your code to the highest quality you can.
 * Document (in block code comments) which simulation techniques are being used, how, and
 explain the choices made to satisfy and implement the above requirements.
+
+Result: 55%
