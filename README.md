@@ -2,7 +2,7 @@
 
 Overall Result: 72%
 
-## Bloke Rides Badger
+## [Bloke Rides Badger]
 You are to write a C++ application to display and animate the Badger entity as it moves around a
 small, flat ground plane. The application must be written using the given framework available via
 Blackboard. You should:
@@ -24,7 +24,7 @@ explain the choices made to satisfy and implement the above requirements.
 Result: 88%
 
 
-## Badger Sim
+## [Badger Sim]
 You are to complete a C++ application to simulate the interaction of Badger entities with their
 environment as detailed below. The application must be written using the given framework
 available via Blackboard. You should:
@@ -39,3 +39,6 @@ when it collides with them.
 explain the choices made to satisfy and implement the above requirements.
 
 Result: 55%
+
+[Bloke Rides Badger]: https://github.com/freddiebabord/AnimationAndSimulationProgramming2015-2016/tree/master/BadgerSim
+[Badger Sim]: https://github.com/freddiebabord/AnimationAndSimulationProgramming2015-2016/tree/master/BadgerSim
